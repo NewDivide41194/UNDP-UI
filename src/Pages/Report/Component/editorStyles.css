@@ -1,0 +1,31 @@
+
+.view .public-DraftStyleDefault-ul {
+  margin-left: -15px;
+}
+.view .DraftEditor-root {
+  height: 130px;
+  overflow-y: auto;
+}
+.view div::-webkit-scrollbar {
+  width: 7px;
+}
+.view div::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 1px rgba(0, 0, 0, 0.699);
+  border-radius: 3px;
+}
+.view div::-webkit-scrollbar-thumb {
+  border-radius: 5px;
+  background: #adadad;
+  padding: 3px;
+  box-shadow: inset 0 0 1px rgba(0, 0, 0, 0.5);
+}
+
+.view .DraftEditor-editorContainer,
+.view .public-DraftEditor-content {
+  height: 100%;
+}
+
+.menu-flags-button{
+  border: 0;
+  box-shadow: none;
+}

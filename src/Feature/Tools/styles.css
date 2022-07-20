@@ -1,0 +1,8 @@
+
+.slider {
+  color: #ff00dd;
+}
+
+.slider:before {
+  background-color: "red" !important;
+}
